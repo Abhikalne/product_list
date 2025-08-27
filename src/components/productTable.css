@@ -1,0 +1,23 @@
+.tableView {
+    width: 100%;
+    padding: 1rem
+}
+
+th,
+td {
+    text-align: left;
+    border: 1px solid #000;
+
+}
+
+td {
+    background-color: antiquewhite;
+    max-width: 20vw;
+}
+
+.product_image {
+    max-width: 10vw;
+    max-height: 60vh;
+    padding: 1rem;
+    object-fit: 'contain'
+}
